@@ -43,8 +43,6 @@ class Api
   end
 
   def to_query(params)
-    params.map { |k,v| "#{k}=#{v}" }.join('&')
+    params.map { |k, v| "#{k}=#{v}" }.join('&')
   end
 end
-
-p Api.new.perform

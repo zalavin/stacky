@@ -18,5 +18,6 @@ class Repository
   end
 
   def set_name
+    SET_NAME
   end
 end
