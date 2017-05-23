@@ -1,0 +1,17 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - 'db/schema.rb'
+Style/Documentation:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+AsciiComments:
+  Enabled: false
+Style/RescueModifier:
+  Enabled: false
+Metrics/LineLength:
+  Max: 100
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
