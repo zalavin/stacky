@@ -8,7 +8,7 @@ require_relative 'repository'
 class Processor
   def perform
     loop do
-      Api.new.perform.each do |link|
+      StackOverflow.new.perform.each do |link|
         break if repository.present? link
         Bot.new.send link
         repository.add link

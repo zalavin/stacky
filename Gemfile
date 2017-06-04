@@ -3,5 +3,9 @@
 source 'https://rubygems.org'
 ruby '2.4.0'
 
+gem 'httparty'
+gem 'pry-byebug'
 gem 'redis'
+gem 'rspec'
+gem 'rubocop'
 gem 'telegram-bot-ruby'
