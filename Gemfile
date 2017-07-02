@@ -5,6 +5,7 @@ ruby '2.4.0'
 
 gem 'httparty'
 gem 'pry-byebug'
+gem 'rake'
 gem 'redis'
 gem 'rspec'
 gem 'rubocop'

@@ -74,6 +74,7 @@ PLATFORMS
 DEPENDENCIES
   httparty
   pry-byebug
+  rake
   redis
   rspec
   rubocop

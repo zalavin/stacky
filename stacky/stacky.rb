@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
 require 'redis'
-require_relative 'api'
+require_relative 'stackoverflow'
 require_relative 'bot'
 require_relative 'repository'
 
-class Processor
+class Stacky
   def perform
     loop do
       StackOverflow.new.perform.each do |link|
